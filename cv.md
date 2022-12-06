@@ -28,9 +28,16 @@ function flattenAndSort(array){
 }, []).sort((a,b)=> a- b);
 }
 ```
-## Education
+## Education:
 * Bachelor in Mathematics and Programming Technologies
 Francisk Skorina Gomel State University, Gomel | 2016 - 2020
 Thesis title: "Software solution for development of combinatorial
 optimization problems".
-
+## Experience:
+* System administrator
+ООО "Правовой Агент", Gomel | 30.07.2020 - 11.11.2020
+Software installation and configuration, connecting computers to
+networks.
+## Languages:
+* Russian-Native
+* English-B1
