@@ -19,3 +19,18 @@ and in a team environment.
 * JavaScript
 * Git
 * Editor: VSCode
+## Code Example:
+```
+function flattenAndSort(array){
+	return array.reduce((prev, item) => {
+	if (Array.isArray(item)) return prev.concat(flattenAndSort(item))
+    else return prev.concat(item)
+}, []).sort((a,b)=> a- b);
+}
+```
+## Education
+* Bachelor in Mathematics and Programming Technologies
+Francisk Skorina Gomel State University, Gomel | 2016 - 2020
+Thesis title: "Software solution for development of combinatorial
+optimization problems".
+
