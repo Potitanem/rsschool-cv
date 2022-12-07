@@ -1,1 +1,1 @@
-https://Potitanem.github.io/rsschool-cv/cv
+https://Potitanem.github.io/rsschool-cv/
