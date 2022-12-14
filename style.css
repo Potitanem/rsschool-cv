@@ -6,5 +6,50 @@
 	box-sizing: border-box;
 }
 body{
+	display: flex;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: 'Roboto';
+	border: 1px solid red;
+}
+
+.footer{
+	border: 2px solid red;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	margin-right: 20px;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+
+.nav-item {
+	transition: transform 1s ease;
+}
+
+.nav-item:hover {
+	transform: scale(1.2) skew(-7deg);
+}
+
+.header {
+	background-color: rgb(76, 96, 187);
 }

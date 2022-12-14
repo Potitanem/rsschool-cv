@@ -1,7 +1,7 @@
 # Denis Panteleev
 ## Contacts:
 * Location: Gomel, Belarus
-* Phone: +375 29 325-70-55
+* Telegram: [it's me](https://t.me/Maccount)
 * Email: denis990@yandex.ru
 * GitHub: [Potitanem](https://github.com/Potitanem)
 ## About Me:
