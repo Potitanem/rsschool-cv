@@ -61,6 +61,14 @@ body{
 	transform: scale(1.2);
 }
 
+/* .github a{
+	transition: transform 0.3s ease;
+}
+
+.github a:hover {
+	transform: scale(1.2);
+} */
+
 .header {
 	background-color: rgb(76, 96, 187);
 }
@@ -217,4 +225,20 @@ body{
 .footer {
 	background-color: rgb(76, 96, 187);
 	padding: 18px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.rss {
+	width: 120px;
+	height: 40px;
+	background-image: url(./assets/img/rs_school.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
