@@ -19,9 +19,10 @@ body{
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: 'Roboto', sans-serif;
-	font-size: 19px;
+	font-size: 20px;
 	font-weight: 400;
-	line-height: 1.5;
+	line-height: 1.4;
+	text-align: justify;
 }
 
 .container {
@@ -45,6 +46,7 @@ body{
 }
 
 .nav-link {
+	position: relative;
 	padding: 0 20px;
 	line-height: 50px;
 	text-decoration: none;
@@ -53,7 +55,7 @@ body{
 	color: white;
 }
 
-.nav-item {
+.nav-item{
 	transition: transform 0.3s ease;
 }
 
@@ -61,23 +63,15 @@ body{
 	transform: scale(1.2);
 }
 
-/* .github a{
-	transition: transform 0.3s ease;
-}
-
-.github a:hover {
-	transform: scale(1.2);
-} */
-
 .header {
 	background-color: rgb(76, 96, 187);
 }
 
 .section {
-	width: calc(50% - 20px);
-	padding: 10px;
-	padding-bottom: 35px;
-	border-bottom: 1px solid #672f2f;
+	width: calc(50% - 25px);
+	padding: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #b4a7a7;
 }
 
 .section-profile {
@@ -85,21 +79,15 @@ body{
 	justify-content: space-around;
 	width: 100%;
 	padding: 50px 30px 35px;
-	border-bottom: 12px solid rgb(216, 198, 198);
+	border-bottom: 5px solid rgb(216, 198, 216);
 }
-
 
 .profile-logo {
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 220px;
 	object-fit: cover;
 	border-radius: 50%;
-	box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
-	transition: .5s;
-}
-
-.profile-logo:hover {
-	filter: grayscale(0.2) brightness(1.05);
+	box-shadow: 0 3px 6px rgba(229, 207, 207, 0.6);
 }
 
 .profile-title {
@@ -115,7 +103,7 @@ body{
 	position: relative;
 	padding: 0;
 	margin-bottom: 20px;
-	color: #4d2323;
+	color: #121312;
 	font-size: 32px;
 	font-weight: 300;
 	letter-spacing: 10px;
@@ -131,15 +119,17 @@ body{
 	margin-left: -70px;
 	width: 140px;
 	height: 2px;
-	background-color: #829985;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+	
 }
 
 .profile-subtitle {
 	margin-top: 20px;
-	color: #5c5c5c;
+	color: #382929;
 	line-height: 50px;
 	font-weight: 300;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .section-title {
@@ -147,8 +137,8 @@ body{
 	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	color: #829985;
+	letter-spacing: 3px;
+	color: #5071ad;
 }
 
 .section-list {
@@ -193,17 +183,18 @@ body{
 
 .section-item {
   position: relative;
-  padding-left: 30px;
+  padding-left: 35px;
+	margin-bottom: 10px;
 }
 
 .items::before {
   content: "";
   position: absolute;
   top: 8px;
-  left: 0px;
+  left: 5px;
   width: 10px;
   height: 10px; 
-  border: 1px solid #829985;
+  border: 1px solid #da9c18;
   border-radius: 50%;
 }
 
@@ -242,3 +233,4 @@ body{
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
