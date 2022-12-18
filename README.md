@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Potitanem.github.io/rsschool-cv/
