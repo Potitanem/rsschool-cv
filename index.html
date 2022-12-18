@@ -20,6 +20,11 @@
 					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
 				</ul>
 			</nav>
+			<div class="toggle">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
 		</div>
 	</header>
 	<main class="main">
@@ -84,7 +89,8 @@
 					<code>
 function flattenAndSort(array){ 
 return array.reduce((prev, item) => {
-if (Array.isArray(item)) return prev.concat(flattenAndSort(item))
+if (Array.isArray(item)) return 
+prev.concat(flattenAndSort(item))
 else return prev.concat(item)
 }, []).sort((a,b)=> a- b);
 }
@@ -123,5 +129,6 @@ else return prev.concat(item)
 			<a href="https://rs.school/js-stage0/" class="rss"></a>
 		</div>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
